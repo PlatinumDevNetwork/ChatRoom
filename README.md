@@ -21,9 +21,9 @@
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.webp" />
 </p>
 
-<h3 align="center">🛡️ CipherGist - End-to-End Encrypted Messaging via GitHub Gists</h3>
+<h3 align="center">🛡️ ChatRoom - End-to-End Encrypted Messaging via GitHub Gists</h3>
 
-CipherGist is a lightweight, secure, and open-source encrypted messenger that enables private communication using GitHub Gists as the backend. It leverages **NaCl (libsodium)** for state-of-the-art encryption, ensuring that only the intended recipient can decrypt your messages. No centralized servers, no metadata tracking—just pure encrypted messaging.
+ChatRoom is a lightweight, secure, and open-source encrypted messenger that enables private communication using GitHub Gists as the backend. It leverages **NaCl (libsodium)** for state-of-the-art encryption, ensuring that only the intended recipient can decrypt your messages. No centralized servers, no metadata tracking—just pure encrypted messaging.
 
 <p align="center">
   <img width="30%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.png" />
