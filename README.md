@@ -73,7 +73,7 @@ ChatRoom is a lightweight, secure, and open-source encrypted messenger that enab
 
 ### 1️⃣ Installation
 ```bash
-git clone https://github.com/spyboy-productions/CipherGist.git
+git clone https://github.com/PlatinumDevNetwork/ChatRoom.git
 ```
 ```
 cd CipherGist
@@ -96,7 +96,7 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 3. Name it **chat.txt** (keep it public or secret)  
 4. Click **"Create gist"**  
 5. Copy the **Gist ID** (last part of the URL)
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/gist_id.png" />
+<img width="100%" align="centre" src="https://github.com/platinumdevnetwork/chatroom/blob/main/demo/gist_id.png" />
 
 ### 5️⃣ Run ChatRoom  
 
@@ -131,8 +131,8 @@ python receiver.py
 ```
 it will download, decrypt and save config.txt in original format and then delete the gist.
 
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/send_demo.png" />
-<img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/recive_demo.png" />
+<img width="100%" align="centre" src="https://github.com/platinumdevnetwork/chatroom/blob/main/demo/send_demo.png" />
+<img width="100%" align="centre" src="https://github.com/platinumdevnetwork/chatroom/blob/main/demo/recive_demo.png" />
 
 ## 🔑 How to Use  
 
@@ -140,7 +140,7 @@ it will download, decrypt and save config.txt in original format and then delete
 python ChatRoom.py
 ```
 
-<img width="100%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
+<img width="100%" src="https://github.com/Platinumdevnetwork/Chatroom/blob/main/demo/demo.png" />
 
 📤 **Sending a Message:**  
 1. Type your message and hit Enter.  
