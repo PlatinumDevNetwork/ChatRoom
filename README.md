@@ -15,7 +15,7 @@
     <a href="https://spyboy.in/Discord">
       <img src="https://img.shields.io/badge/-Discord-black?logo=discord&style=for-the-badge">
     </a>
-  
+   
 </p>
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.webp" />
@@ -23,7 +23,7 @@
 
 <h3 align="center">🛡️ ChatRoom - End-to-End Encrypted Messaging via GitHub Gists</h3>
 
-ChatRoom is a lightweight, secure, and open-source encrypted messenger that enables private communication using GitHub Gists as the backend. It leverages **NaCl (libsodium)** for state-of-the-art encryption, ensuring that only the intended recipient can decrypt your messages. No centralized servers, no metadata tracking—just pure encrypted messaging.
+ChatRoom is a lightweight, secure, and open-source encrypted messenger that enables private communication using GitHub Gists as the backend. It leverages **NaCl (libsodium)** for state-of-the-art encryption and ensures messages remain private and self-controlled.
 
 <p align="center">
   <img width="30%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.png" />
@@ -39,33 +39,33 @@ ChatRoom is a lightweight, secure, and open-source encrypted messenger that enab
 
 ---
 
-## 🔥 What Makes CipherGist Unique?  
-🔹 Unlike traditional messengers (WhatsApp, Signal), **CipherGist does not use a central server**.  
+## 🔥 What Makes ChatRoom Unique?  
+🔹 Unlike traditional messengers (WhatsApp, Signal), **ChatRoom does not use a central server**.  
 🔹 No phone number, email, or identity required—**just a GitHub account**.  
 🔹 Messages are **not stored permanently**—once deleted from Gist, they are gone forever.  
 🔹 **No third-party tracking**—GitHub itself can't read your encrypted messages.  
 
-## 📊 CipherGist vs Other Messengers – Feature Comparison  
+## 📊 ChatRoom vs Other Messengers – Feature Comparison  
 
-| Feature                  | **CipherGist** 🛡️ | **Signal** 🔵 | **Telegram** ✈️ | **WhatsApp** ✅ | **Email (PGP)** 📧 |
-|--------------------------|:-----------------:|:------------:|:--------------:|:--------------:|:---------------:|
-| **End-to-End Encryption** | ✅ **Yes** (NaCl - X25519) | ✅ Yes (Signal Protocol) | ⚠️ Secret Chats Only | ✅ Yes | ✅ Yes (PGP) |
-| **Requires Phone Number** | ❌ **No** | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| **Server Storage** | ❌ **None** (Uses GitHub Gist) | ✅ Yes (Signal servers) | ✅ Yes (Cloud-based) | ✅ Yes (Meta servers) | ❌ No |
-| **Metadata Collection** | ❌ **No** (Only encrypted text in Gist) | ⚠️ Some (Stores who you contact) | ⚠️ High (Cloud sync) | 🚨 **Very High** (Metadata & backups) | ❌ No |
-| **Self-Hosted Option** | ✅ **Yes** (Your own Gist) | ❌ No | ❌ No | ❌ No | ✅ Yes (Own mail server) |
-| **Message Deletion** | ✅ **Fully Controllable** (Delete Gist) | ✅ Yes (Disappearing messages) | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Group Chat Support** | ❌ Not yet | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| **Multi-Device Support** | ✅ Yes (Cross-platform) | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| **Third-Party Tracking** | ❌ **None** | ❌ No | ✅ Yes (Cloud storage) | ✅ Yes (Meta tracking) | ❌ No |
-| **Dependencies** | 🔹 Python, GitHub Gist | 🔹 Signal App | 🔹 Telegram App | 🔹 WhatsApp App | 🔹 PGP Tools |
-| **Message Delivery** | 🔄 **Polls Gist every 3 sec** | 📩 Push Notifications | 📩 Push Notifications | 📩 Push Notifications | 📩 Email |
-| **Open-Source** | ✅ **Yes** | ✅ Yes | ⚠️ Partially | ❌ No | ✅ Yes |
-| **Data Ownership** | ✅ **You own your messages** | ❌ No | ❌ No | ❌ No | ✅ Yes |
-| **Best Use Case** | 🔐 **Anonymous Secure Chat** | 🔵 Private Messaging | 🔹 Casual & Cloud Backup | ✅ Friends & Family | 📧 Email Security |
-
-🚀 **Conclusion:**  
-CipherGist is the **most private and self-hosted** option, ideal for those who want **no central servers, no phone numbers, and full control over encryption keys.** However, it's not as user-friendly as mainstream messengers and currently lacks group chat features.
+| Feature                  | **ChatRoom** 🛡️ | **Signal** 🔵 | **Telegram** ✈️ | **WhatsApp** ✅ | **Email (PGP)** 📧 |
+| |--------------------------|:-----------------:|:------------:|:--------------:|:--------------:|:---------------:|
+| | **End-to-End Encryption** | ✅ **Yes** (NaCl - X25519) | ✅ Yes (Signal Protocol) | ⚠️ Secret Chats Only | ✅ Yes | ✅ Yes (PGP) |
+| | **Requires Phone Number** | ❌ **No** | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
+| | **Server Storage** | ❌ **None** (Uses GitHub Gist) | ✅ Yes (Signal servers) | ✅ Yes (Cloud-based) | ✅ Yes (Meta servers) | ❌ No |
+| | **Metadata Collection** | ❌ **No** (Only encrypted text in Gist) | ⚠️ Some (Stores who you contact) | ⚠️ High (Cloud sync) | 🚨 **Very High** (Metadata & backups) | ❌ No |
+| | **Self-Hosted Option** | ✅ **Yes** (Your own Gist) | ❌ No | ❌ No | ❌ No | ✅ Yes (Own mail server) |
+| | **Message Deletion** | ✅ **Fully Controllable** (Delete Gist) | ✅ Yes (Disappearing messages) | ✅ Yes | ✅ Yes | ✅ Yes |
+| | **Group Chat Support** | ❌ Not yet | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
+| | **Multi-Device Support** | ✅ Yes (Cross-platform) | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
+| | **Third-Party Tracking** | ❌ **None** | ❌ No | ✅ Yes (Cloud storage) | ✅ Yes (Meta tracking) | ❌ No |
+| | **Dependencies** | 🔹 Python, GitHub Gist | 🔹 Signal App | 🔹 Telegram App | 🔹 WhatsApp App | 🔹 PGP Tools |
+| | **Message Delivery** | 🔄 **Polls Gist every 3 sec** | 📩 Push Notifications | 📩 Push Notifications | 📩 Push Notifications | 📩 Email |
+| | **Open-Source** | ✅ **Yes** | ✅ Yes | ⚠️ Partially | ❌ No | ✅ Yes |
+| | **Data Ownership** | ✅ **You own your messages** | ❌ No | ❌ No | ❌ No | ✅ Yes |
+| | **Best Use Case** | 🔐 **Anonymous Secure Chat** | 🔵 Private Messaging | 🔹 Casual & Cloud Backup | ✅ Friends & Family | 📧 Email Security |
+| 
+| 🚀 **Conclusion:**  |
+| ChatRoom is the **most private and self-hosted** option, ideal for those who want **no central servers, no phone numbers, and full control over encryption keys.** However, it's not as user-friendly as mainstream apps and doesn't offer multi-user group chat yet.  |
 
 ---
 
@@ -98,10 +98,10 @@ Go to [GitHub](https://github.com/) and create an account if you don’t have on
 5. Copy the **Gist ID** (last part of the URL)
 <img width="100%" align="centre" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/gist_id.png" />
 
-### 5️⃣ Run CipherGist  
+### 5️⃣ Run ChatRoom  
 
 ```sh
-python CipherGist.py
+python ChatRoom.py
 ```
 
 If it’s your first time running, it will ask for:  
@@ -137,7 +137,7 @@ it will download, decrypt and save config.txt in original format and then delete
 ## 🔑 How to Use  
 
 ```sh
-python CipherGist.py
+python ChatRoom.py
 ```
 
 <img width="100%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/demo.png" />
@@ -153,7 +153,7 @@ python CipherGist.py
 
 ---
 
-## 🔐 Is CipherGist Secure?  
+## 🔐 Is ChatRoom Secure?  
 ✔ **Uses NaCl cryptography (Ed25519 & X25519)** – trusted by security experts.  
 ✔ **No passwords stored** – keys are generated per session.  
 ✔ **No central server** – GitHub can't read your encrypted messages.  
@@ -170,6 +170,6 @@ python CipherGist.py
 ---
 
 ### 🎯 Start Encrypting Today!  
-**Forget about centralized messengers.** Take control of your privacy with **CipherGist**.
+**Forget about centralized messengers.** Take control of your privacy with **ChatRoom**.
 
 <h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
