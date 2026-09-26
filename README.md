@@ -40,7 +40,7 @@ ChatRoom is a lightweight, secure, and open-source encrypted messenger that enab
 git clone https://github.com/PlatinumDevNetwork/ChatRoom.git
 ```
 ```
-cd CipherGist
+cd ChatRoom
 ```
 ```
 pip install -r requirements.txt
