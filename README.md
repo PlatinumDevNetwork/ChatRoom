@@ -1,22 +1,5 @@
 <h4 align="center"> If you find this GitHub repo useful, please consider giving it a star! ⭐️ </h4> 
-<p align="center">
-    <a href="https://spyboy.in/twitter">
-      <img src="https://img.shields.io/badge/-TWITTER-black?logo=twitter&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.in/">
-      <img src="https://img.shields.io/badge/-spyboy.in-black?logo=google&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.blog/">
-      <img src="https://img.shields.io/badge/-spyboy.blog-black?logo=wordpress&style=for-the-badge">
-    </a>
-    &nbsp;
-    <a href="https://spyboy.in/Discord">
-      <img src="https://img.shields.io/badge/-Discord-black?logo=discord&style=for-the-badge">
-    </a>
-   
-</p>
+
 <p align="center">
   <img width="20%" src="https://github.com/spyboy-productions/CipherGist/blob/main/demo/CipherGist.webp" />
 </p>
@@ -45,25 +28,6 @@ ChatRoom is a lightweight, secure, and open-source encrypted messenger that enab
 🔹 Messages are **not stored permanently**—once deleted from Gist, they are gone forever.  
 🔹 **No third-party tracking**—GitHub itself can't read your encrypted messages.  
 
-## 📊 ChatRoom vs Other Messengers – Feature Comparison  
-
-| Feature                  | **ChatRoom** 🛡️ | **Signal** 🔵 | **Telegram** ✈️ | **WhatsApp** ✅ | **Email (PGP)** 📧 |
-| |--------------------------|:-----------------:|:------------:|:--------------:|:--------------:|:---------------:|
-| | **End-to-End Encryption** | ✅ **Yes** (NaCl - X25519) | ✅ Yes (Signal Protocol) | ⚠️ Secret Chats Only | ✅ Yes | ✅ Yes (PGP) |
-| | **Requires Phone Number** | ❌ **No** | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| | **Server Storage** | ❌ **None** (Uses GitHub Gist) | ✅ Yes (Signal servers) | ✅ Yes (Cloud-based) | ✅ Yes (Meta servers) | ❌ No |
-| | **Metadata Collection** | ❌ **No** (Only encrypted text in Gist) | ⚠️ Some (Stores who you contact) | ⚠️ High (Cloud sync) | 🚨 **Very High** (Metadata & backups) | ❌ No |
-| | **Self-Hosted Option** | ✅ **Yes** (Your own Gist) | ❌ No | ❌ No | ❌ No | ✅ Yes (Own mail server) |
-| | **Message Deletion** | ✅ **Fully Controllable** (Delete Gist) | ✅ Yes (Disappearing messages) | ✅ Yes | ✅ Yes | ✅ Yes |
-| | **Group Chat Support** | ❌ Not yet | ✅ Yes | ✅ Yes | ✅ Yes | ❌ No |
-| | **Multi-Device Support** | ✅ Yes (Cross-platform) | ✅ Yes | ✅ Yes | ✅ Yes | ✅ Yes |
-| | **Third-Party Tracking** | ❌ **None** | ❌ No | ✅ Yes (Cloud storage) | ✅ Yes (Meta tracking) | ❌ No |
-| | **Dependencies** | 🔹 Python, GitHub Gist | 🔹 Signal App | 🔹 Telegram App | 🔹 WhatsApp App | 🔹 PGP Tools |
-| | **Message Delivery** | 🔄 **Polls Gist every 3 sec** | 📩 Push Notifications | 📩 Push Notifications | 📩 Push Notifications | 📩 Email |
-| | **Open-Source** | ✅ **Yes** | ✅ Yes | ⚠️ Partially | ❌ No | ✅ Yes |
-| | **Data Ownership** | ✅ **You own your messages** | ❌ No | ❌ No | ❌ No | ✅ Yes |
-| | **Best Use Case** | 🔐 **Anonymous Secure Chat** | 🔵 Private Messaging | 🔹 Casual & Cloud Backup | ✅ Friends & Family | 📧 Email Security |
-| 
 | 🚀 **Conclusion:**  |
 | ChatRoom is the **most private and self-hosted** option, ideal for those who want **no central servers, no phone numbers, and full control over encryption keys.** However, it's not as user-friendly as mainstream apps and doesn't offer multi-user group chat yet.  |
 
